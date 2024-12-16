@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #crypto-list,
+  #currency-calculator {
+    margin: 20px 0;
+  }
+  
+  canvas {
+    max-height: 400px;
+    margin: 20px 0;
+  }
+  

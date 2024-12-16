@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profil Qidiruvi</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>GitHub Profil Qidiruvi</h1>
+    <div class="input-container">
+      <input type="text" id="username" placeholder="Username kiriting...">
+      <button onclick="fetchUser()">Qidirish</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="loading" id="loading">Loading...</div>
+    <div class="profile-container">
+      <img id="profile-img" alt="Profil rasmi">
+      <div class="user-info">
+        <p><strong>Ism:</strong> <span id="name"></span></p>
+        <p><strong>Username:</strong> <span id="username-display"></span></p>
+        <p><strong>Bio:</strong> <span id="bio"></span></p>
+        <p><strong>Kompaniya:</strong> <span id="company"></span></p>
+        <p><strong>Joylashuv:</strong> <span id="location"></span></p>
+        <p><strong>Followers:</strong> <span id="followers"></span></p>
+        <p><strong>Following:</strong> <span id="following"></span></p>
+      </div>
+    </div>
+
+    <div class="repo-container">
+      <h3>Oxirgi 5 Repository</h3>
+      <ul id="repo-list"></ul>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.input-container {
+  margin: 10px auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-container input {
+  padding: 8px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #777;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.profile-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+
+.repo-container {
+  padding: 10px 20px;
+}
+
+.repo-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.repo-container li {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

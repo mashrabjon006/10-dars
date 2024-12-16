@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film Ma'lumotlar Qidruvi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Film Ma'lumotlar Qidruvi</h1>
+  </header>
+  
+  <main>
+
+    <div class="search-container">
+      <input type="text" id="filmInput" placeholder="Film nomini kiriting...">
+      <button onclick="searchFilm()">Qidirish</button>
+    </div>
+  
+    <div id="loading" style="display: none;">Loading...</div>
+    
+
+    <div class="result-container" id="resultContainer"></div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

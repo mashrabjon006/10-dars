@@ -1,0 +1,61 @@
+/* O'zgarishlar uchun umumiy reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Umumiy dizayn */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Sarlavha uchun dizayn */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Qidiruv maydoni */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #333;
+  }
+  
+  .search-container button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #777;
+  }
+  
+  /* Ma'lumotlar konteyneri */
+  .result-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .result-container img {
+    max-width: 250px;
+    margin: 10px;
+  }
+  
